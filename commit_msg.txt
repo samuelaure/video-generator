@@ -1,0 +1,1 @@
+feat(render): implement template-driven video generation via FFmpeg
