@@ -1,10 +1,24 @@
 {
-  "name": "video-generator",
-  "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "name": "@samuelaure/video-generator",
+  "version": "1.0.0",
+  "description": "DEPRECATED: Professional video generation engine. This project has been succeeded by its evolved successor: flownau.",
+  "author": {
+    "name": "Samuel Aure",
+    "url": "https://www.samuelaure.com"
+  },
   "private": true,
   "license": "Proprietary",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samuelaure/video-generator.git"
+  },
+  "homepage": "https://github.com/samuelaure/flownau",
+  "bugs": {
+    "url": "https://github.com/samuelaure/video-generator/issues"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
@@ -15,9 +29,7 @@
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:cov": "jest --coverage",
-    "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
-    "test:e2e": "jest --config ./test/jest-e2e.json"
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "@nestjs/common": "^10.0.0",
