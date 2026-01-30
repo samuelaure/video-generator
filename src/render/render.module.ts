@@ -4,6 +4,6 @@ import { RenderService } from './render.service';
 
 @Module({
   controllers: [RenderController],
-  providers: [RenderService]
+  providers: [RenderService],
 })
 export class RenderModule {}
